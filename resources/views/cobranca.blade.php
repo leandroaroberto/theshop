@@ -101,7 +101,8 @@
 
 </p>
 <br>
-@if($cobranca && count($cobranca)> 0)
+
+@if($cobranca)
   <div class="">{{Form::submit('Atualizar e ir para pagamento',['class'=>'btn btn-success'])}}</div>
 @else
   <div class="">{{Form::submit('Cadastrar  e ir para pagamento',['class'=>'btn btn-success'])}}</div>
