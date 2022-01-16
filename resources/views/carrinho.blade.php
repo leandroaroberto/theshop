@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 
-@if(count($carrinho) > 0)
+@if($carrinho && count($carrinho) > 0)
 <div class="table-responsive">
   <table class="table table-hover carrinho">
     <tr>
